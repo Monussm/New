@@ -1,38 +1,232 @@
-.App {
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-link
+{
+  font-size: 17px;
+  color: black;
+  font-weight: 600;
+}
+.nav-link:hover 
+{
+  color: blue;
+}
+
+.nav-link:active
+{
+  color: green;
+}
+.free
+{
+  background-color: blue;
+  width: 156px;
+  height: 45px;
+  color: white;
+  border-color: blue;
+  font-size: 18px;
+  font-weight: 600;
+}
+.free:hover 
+{
+  border-color: blue;
+  color: blue;
+}
+
+.banner
+{
+  width: 662px;
+}
+h2{
+  text-align: center;
+}
+.para
+{
+  text-align: center;
+}
+.card
+{
+  
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-text
+{
+  margin-top: 25px;
+  font-weight: 700;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.image
+{
+  margin-top: 19px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card-textp
+{
+ font-size: 22px;
+ margin-top: 10px;
+ color: rgb(108, 108, 108,0.9);
+ font-weight: 100;
+}
+.about
+{
+  width: 563px;
+}
+h5
+{
+  margin-top: 20px;
+  font-weight: 600;
+}
+p
+{
+  color: rgba(99, 99, 99, 0.9);
+ font-weight: 100;
+}
+h3
+{
+  font-size: 45px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.solution
+{
+  margin-top: 100px;
+}
+.heading
+{
+  font-size: 50px;
+  font-weight: 600;
+}
+.form-control
+{
+  height: 65px;
+ 
+}
+.input-group-text
+{
+  cursor: pointer;
+}
+.ness 
+{
+  background-color: rgb(222, 222, 255);
+  color: rgb(0, 55, 255);
+  width: 120px;
+  text-align: center;
+ font-size: 20px;
+}
+.went
+{
+  margin-top: 33px;
+  font-weight: 600;
+  font-size: 30px;
+}
+.age 
+{
+  margin-top: 50px;
+}
+.tree
+{
+  background-color: rgb(24, 113, 221);
+  color: white;
+  
+  height: 45px;
+}
+.tree:hover 
+{
+  border-color: rgb(24, 113, 221);
+}
+li 
+{
+  list-style-type: none;
+  
+}
+h6 
+{
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 12px;
+}
+.olla
+{
+  margin-top: 95px;
+  background-color: rgba(45, 71, 174, 0.6);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.trees 
+{
+  margin-left: 137px;
+  background-color: rgb(45, 71, 174);
+  width: 168px;
+  height: 50px;
+  color: white;
+}
+.trees:hover 
+{
+  border-color:  rgb(67, 104, 255);
+  color:  rgb(45, 71, 174);
+}
+.with 
+{
+  margin-top: 50px;
+}
+.ac 
+{
+  color: white;
+}
+.paras
+{
+color: white;
+text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 764px)
+{
+  .banner
+  {
+   width: 460px;
+   margin-top: 10px;
   }
-  to {
-    transform: rotate(360deg);
+  .about 
+  {
+    width: 456px;
+   
   }
+  .trees
+  {
+    margin-bottom: 30px;
+  }
+  li 
+  {
+    margin-right: 10px;
+  }
+  h6 
+  {
+    margin-left: 27px;
+  }
+  .pn 
+  {
+    margin-left: 22px;
+  }
+ .map
+  {
+    width: 471px;
+    height: 200px;
+  }
+  .treesn
+  {
+    margin-right: 200px;
+  }
+}
+.us 
+{
+  margin-top: 60px;
+  font-size: 60px;
+  font-weight: 700;
+}
+iframe
+{
+  width: 1075px;
+  height: 365px;
 }
